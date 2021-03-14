@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 3.4 第4讲
 
 Sequential List 
@@ -23,7 +22,6 @@ uses - 集合的“并”运算
 
 Linked List 单连表
 
-=======
 # 3.2 第2讲
 
 # 算法中常用的经典方法
@@ -77,4 +75,3 @@ exchange sort, bubble sort,
 派生类?
 
 抽象类于抽象基类
->>>>>>> 00000cc726380425a6e1c9cf0d885a546416f2bb
