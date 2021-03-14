@@ -22,7 +22,6 @@ uses - 集合的“并”运算
 
 Linked List 单连表
 
-<<<<<<< HEAD
 # 3.2 第2讲
 
 # 算法中常用的经典方法
@@ -71,10 +70,29 @@ exchange sort, bubble sort,
 
 双向链表 
 
-
-
 派生类?
 
 抽象类于抽象基类
-=======
->>>>>>> d0847807b71b194bf151c11e4082d78f2788cfcf
+
+# 第三章 栈和队列
+栈 - stack
+
+链式栈 - 链式栈是线性表的连接存储表示。
+- 用链接表示不仅能够提高效率，还可以达到共享存储空间的目的
+- 链式栈的栈顶在链表的表头，新节点的插入和栈顶结点的删除都在链表的表头，即栈顶进行。
+- isp : in stack priority
+- icp : in coming priority
+
+栈与递归 -recursive 
+
+队列 queue
+- FCFS first come first served
+- 队头，队尾
+
+链式队列linked list queue
+- ex. 打印二项展开式$(a+b)^i$
+
+上端队列 double ended queue, dequeue
+- a more generalized form of queue data structure which allows insertian and remove of elements from both ends, the front and back
+
+
