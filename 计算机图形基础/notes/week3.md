@@ -37,4 +37,17 @@ BRDF 模型
 - 基于物理的模型 physical-based models
   - surface roughness
   - 非涅尔项 fresnel term 
-- 数据表达的模型 data-driven models
+  - cook torrance - add metallic look
+- 数据表达的 型 data-driven models
+  - ward 模型 
+
+
+
+
+
+Does not account for 透明 materials, where light enters the center of objection
+
+BTDF bidirectional transmittance disstribution function
+
+BSSRDF mixture of BTDF and BRDF
+
