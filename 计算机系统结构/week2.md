@@ -1,6 +1,6 @@
-# 3.11 第2讲 
+# 3.04 第2讲 
 
-# Instruction Set Architecture 
+# CA, what, how, and why?
 
 
 
