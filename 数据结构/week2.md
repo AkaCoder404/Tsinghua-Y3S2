@@ -19,7 +19,6 @@ deleting and inserting, move all the data points after it -> costly as well
 uses - 集合的“并”运算
 
 
-
 Linked List 单连表
 
 # 3.2 第2讲

@@ -86,7 +86,7 @@ https://blog.csdn.net/lililuni/article/details/83685463
 
 ### 缺页率置换算法的实现
 
-<img src="C:\Users\ligeo\Desktop\Y3S2\操作系统\notes\week4.assets\image-20210318084832320.png" alt="image-20210318084832320" style="zoom:50%;" />
+<img src="week4.assets/image-20210318084832320-1618156665201.png" alt="image-20210318084832320" style="zoom:50%;" />
 
 缺页率置换
 
@@ -96,7 +96,7 @@ https://blog.csdn.net/lililuni/article/details/83685463
 >
 >3. 时刻4，访问b时出现缺页，把b补进来，此时缺页时间间隔是3，大于窗口大小2，将两个缺页之间没有访问的页面剔除出去，也就是剔除a、e。后面类似，在时刻6时，缺页间隔为2，不进行剔除。
 >
->   <img src="C:\Users\ligeo\Desktop\Y3S2\操作系统\notes\week4.assets\image-20210318084958389.png" alt="image-20210318084958389" style="zoom:50%;" />
+>   <img src="week4.assets/image-20210318084958389-1618156669577.png" alt="image-20210318084958389" style="zoom:50%;" />
 
 ## 抖动和负载控制
 
