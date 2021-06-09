@@ -156,7 +156,7 @@ void Worker::sort() {
 
 ## 优化
 
-The realization of sorting and merging the data of two adjacent processes was quite simple. I simply utilized ```std:algorithm``` ‘s sorting algorithms ```std::merge``` and ```std::sort```. This saved the hassle of implementing our own algorithm which may not be as optimized.  I first implemented the two base cases which were when ```nprocs == 1``` and ```nprocs = 2```.  The implementation for when ```nprocs = n```, when $n>2$, is quite similar to the model of the ```nprocs = 2``` , but had to consider which sort stage it was (even-odd or odd-even) and whether or not that process had sorted/exchanged with its neigboring process. This a key aspect of this program, as we have to implement a method to know when the processes need to stop, which is when all process no long exchange any data. The most basic implementation is to choose one process to track whether or not all the other process have exhanged data (through a merge sort). And when that process discovers that all other procces no longer are exchanging data, that process can pass a parameter ```check_count```that is recieved by all other process, effectively stopping the all the process and thus the program. I chose the middle process ``` rank = nprocs/2``` to process whether or not the program should stop the sort.  The two ends of the processes (rank = 0, rank = n) pass information to the middle. 
+The realization of sorting and merging the data of two adjacent processes was quite simple. I simply utilized ```std:algorithm``` ‘s sorting algorithms ```std::merge``` and ```std::sort```. This saved the hassle of implementing our own algorithm which may not be as optimized.  I first implemented the two base cases which were when ```nprocs == 1``` and ```nprocs = 2```.  The implementation for when ```nprocs = n```, when $n>2$, is quite similar to the model of the ```nprocs = 2``` , but had to consider which sort stage it was (even-odd or odd-even) and whether or not that process had sorted/exchanged with its neighboring process. This a key aspect of this program, as we have to implement a method to know when the processes need to stop, which is when all process no longer exchange any data. The most basic implementation is to choose one process to track whether or not all the other process have exchanged data (through a merge sort). And when that process discovers that all other process no longer are exchanging data, that process can pass a parameter ```check_count```that is received by all other process, effectively stopping the all the process and thus the program. I chose the middle process ``` rank = nprocs/2``` to process whether or not the program should stop the sort.  The two ends of the processes (rank = 0, rank = n) pass information to the middle. 
 
 ## 实验结果
 
@@ -180,7 +180,7 @@ Execution time of function sort is 6763.453000 ms.
 Process 0: finalize
 Process 1 handles [50000000, 100000000)
 Rank 1: pass
-Process 1: finaliz
+Process 1: finalize
 
 ```
 

@@ -13,4 +13,3 @@
 
 ![image-20210407155700986](hw6.assets/image-20210407155700986.png)
 
-answer chapter 5.
