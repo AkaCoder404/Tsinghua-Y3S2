@@ -516,15 +516,31 @@ the static network is directly connected by points to points, and this connectio
 - if represented by a graph, the node represents the switch and the edge represents the communication link
 - the link between nodes is passive and cannot be reconstructed
 
+## 动态网络
+
+The switching elements of the network are active, and the link can be reconstructed by setting the state of these switches.
 
 
 
+### Crossbar Switch
 
-## 动态我哦那个罗
+Only the switching elements on the boundary of the network can be connected to the processor.
+
+Greatly broaden the interconnection transmission frequency band and improve the efficiency of the system;
+
+1. however, the amount of crossbar switch equipment is too large and cost too high, we need to adopt a space allocation system
+
+### 多级互联网络
+
+1. The three elements of a multi-level network
+(1) Switch unit: a switch unit with input and a output is recorded as a switch unit of axa, where a is an integer multiple of 2. Common ones are 2 x 2, 4 x 4, 8 x 8, etc.
+According to the function of the switch unit, 2 x 2 can be divided into two function and four function switch
+
+
 
 ## 通信问题
 
+1. 信息，包和片
 
-
-
+# SEC18 Data-Level Parallelism
 
