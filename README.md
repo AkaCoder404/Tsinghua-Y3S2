@@ -1,2 +1,3 @@
 # Y3S2
-second semester of third year at tsinghua university
+
+This repository contains all notes and assignments for my second semester of my third year at Tsinghua University.
